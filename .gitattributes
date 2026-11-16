@@ -1,0 +1,19 @@
+# Normalize line endings to LF across all platforms (especially for Docker/Linux)
+* text=auto eol=lf
+
+# Explicitly mark text files
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+.gitignore text eol=lf
+.env.example text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.ico binary
